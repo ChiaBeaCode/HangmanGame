@@ -1,0 +1,17 @@
+.tile:hover:not(:disabled),
+.tile:focus:not(:disabled) {
+  transform: scale(1.05);
+  background-color: hsl(143, 50%, 30%);
+  color: #f0f0f0;
+}
+
+.tile.active {
+  background-color: hsl(143, 70%, 40%);
+  color: #f0f0f0;
+  cursor: default;
+}
+.tile.inactive {
+  background-color: #f0f0f0;
+  opacity: 0.5;
+  cursor: default;
+}
